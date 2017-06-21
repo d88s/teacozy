@@ -1,0 +1,159 @@
+body {
+	background-color: black;
+	font-size: 22px;
+	font-family: helvetica;
+	color: seashell;
+	margin: 0;
+	padding: 0;
+	opacity: 0.9;
+	text-align: center;
+}
+/*--- Start Header Section ---*/
+header {
+	display: flex;
+	position: fixed;
+	width: 100%;
+	background-color: black;
+	border-bottom: 1px solid seashell;
+	height: 69px;
+}
+.logo img {
+	height: 50px;
+	margin-left: 10px;
+	margin-top: 7.5px;
+}
+nav {
+	width: 100%;
+	text-align: right;
+}
+nav li {
+	display: inline-flex;
+	text-decoration: underline;
+}
+nav a {
+	padding: 0 10px;
+	margin-right: 5px;
+	color: seashell;
+}
+/*--- End Header Section ---*/
+/*--- Start Containers Section --*/
+.maincontainer {
+	padding-top: 69px;
+	width: 1200px;
+	margin: auto;
+}
+#mission {
+	background-image: url(images/background.jpg);
+	display: flex;
+	height: 700px;
+	margin-bottom: 75px;
+}
+.missiontext {
+	background-color: black;
+	width: 1200px;
+	height: 100px;
+	text-align: center;
+	margin: auto;
+}
+h2, h4 {
+	margin: auto;
+	padding: 10px;
+}
+.month {
+	text-align: center;
+	padding-bottom: 25px;
+}
+#featured-tea {
+	display: flex;
+	justify-content: space-around;
+	width: 1000px;
+	margin: auto;
+	margin-bottom: 75px;
+	flex-wrap: wrap;
+
+}
+.toprow {
+	display: flex;
+}
+.toppics img {
+	width: 300px;
+	height: 200px;
+}
+.bottomrow {
+	display: flex;
+}
+.bottompics img {
+	width: 300px;
+	height: 200px;
+}
+#locations {
+	margin: auto;
+	background-image: url(images/locations.jpg);
+	width: 1200px;
+	height: 500px;
+	text-align: center;
+	padding-top: 80px;
+}
+.threeboxes {
+	display: flex;
+	margin: auto;
+	margin-top: 15px;
+	width: 980px;
+	justify-content: space-between;
+	opacity: 1;
+}
+.boxone {
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+	width: 300px;
+	height: 300px;	
+}
+.boxtwo {
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+	width: 300px;
+	height: 300px;
+}
+.boxthree {
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+	width: 300px;
+	height: 300px;
+}
+#TTC {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 100%;
+	height: 200px;
+}
+/*--- End Containers Section ---*/
+footer {
+	width: 100%;
+	margin-left: 20px;
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
